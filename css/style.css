@@ -1,0 +1,129 @@
+body {
+	margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: blue;
+    height: 70px;
+    
+}
+
+.topic {
+    float: left;
+    display: block;
+    font-size: 1.5em;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    color: #fdd835;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-right: 80px;
+    margin-bottom: 25px;
+    margin-left: 80px;
+}
+
+.nav {
+    float: right;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 25px;
+    padding: 0px;
+    width: 100%;
+}
+
+li {
+    float: left;
+    padding: 20px;
+    font-size: large;
+    font-weight: 600;
+    color: pink;
+ }   
+
+ .hero {
+    background: url("../img/llk.jpg.jpg");
+    position: relative;
+    min-height: 450px;
+    height: 100vh;
+    z-index: -1;
+    background-size: cover;
+}
+
+#mainName {
+    width: 0px;
+    margin: 0px;
+    text-align: right;
+    color: red;
+}
+
+h1 {
+    padding: 0px;
+    width: 0px;
+    margin: 0px;
+    top: 50%;
+    left: 36%;
+    position: top; 
+    color: red;
+    font-size: 90px;
+}
+.firstTable {
+	color: #92;
+	font-family: helvetica, arial, sans-serif;
+	width: 640px;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th {  
+    
+    font-weight: bold;
+}
+button {
+    color:red;
+}
+
+td {  
+    text-align: center;
+    line-height: 50px;
+}
+table {
+	text-align: center;	
+}
+
+
+.details {
+	float: left;
+	width: 50%;
+	height: 264px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #00ff33;
+}
+.parent {
+	float:left;
+	width:50%;
+	margin: 0px;
+	padding: 0px;
+	height: 264px;
+	background-color: rgb(0,0,225);
+}
+.formDiv {
+	text-align: center;
+	padding: 50px 20px 0px 20px;
+	clear: both;
+	width: 100%;
+}
+
+footer {
+	clear: both;
+    background-color: #a569bd;
+    height: 40px;
+    }
+
+#copyright {
+	text-align: center;
+	padding: 20px 20px 0px 20px;
+}
